@@ -39,5 +39,6 @@ input {
 }
 
 .submit {
-  width: 30%;
+  width: fit-content;
+  padding: 0 1rem;
 }
