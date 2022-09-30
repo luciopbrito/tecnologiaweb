@@ -18,6 +18,9 @@ $(document).on('click', '.submit', function () {
         $('#formemail').focus();
         $('#formemail').css("background-color", "#A9A9A9");
         $('#formemail').val("");
+    } else {
+        alert("cadastro realizado com sucesso!");
+        $('[type="email"], [type="text"]').val("").css("background-color", "inherit");
     }
 });
 
